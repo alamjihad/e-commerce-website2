@@ -90,7 +90,8 @@ nav{
   color: #fff;
   margin-top: 20px;
   height: 11vh;
-  width: 100%;
+  width: 101.5%;
+  margin-left: -8px;
 }
 .headmedia{
   display: none;
@@ -165,10 +166,17 @@ nav{
     color: #222;
     width: 155px;
     padding: 7px;
-    line-height: 1.8;
+    line-height: 2.0;
     padding-bottom: 8px;
-  
+    display: none;
 }
+.homelive:hover{
+  cursor: pointer;
+}
+.homelive:hover .homliv{
+  display: block;
+}
+
 .computer{
   display: flex;
   flex-direction: column;
@@ -183,6 +191,27 @@ nav{
   margin-left: 159px;
   position: absolute;
 }
+.accesso{
+  display:flex;
+  flex-direction: column;
+  margin-top: 39px;
+  position: absolute;
+  margin-left: -185px;
+  z-index: 5;
+  background-color: white;
+  color: #222;
+  width: 155px;
+  padding: 4px;
+  line-height: 2.0;
+  padding-bottom: 8px;
+  display: none;
+}
+.computer:hover{
+  cursor: pointer;
+}
+.computer:hover .accesso{
+  display: block;
+}
 .mobile{
   margin-left: 120.5px;
   padding-top: 15.5px;
@@ -192,6 +221,27 @@ nav{
   margin-left: 135.5px;
   margin-top: -33px;
   position: absolute;
+}
+.mobaccesso{
+  display:flex;
+  flex-direction: column;
+  margin-top: 27px;
+  position: absolute;
+  margin-left: -143px;
+  z-index: 5;
+  background-color: white;
+  color: #222;
+  width: 187px;
+  padding: 7px;
+  line-height: 2.0;
+  padding-bottom: 8px;
+  display: none;
+}
+.mobile:hover{
+  cursor: pointer;
+}
+.mobile:hover .mobaccesso{
+  display: block;
 }
 .health{
   padding-top: 15.5px;
@@ -203,6 +253,27 @@ nav{
   margin-top: -33px;
   position: absolute;
 }
+.healthbeauty{
+  display:flex;
+  flex-direction: column;
+  margin-top: 27px;
+  position: absolute;
+  margin-left: -123px;
+  z-index: 5;
+  background-color: white;
+  color: #222;
+  width: 187px;
+  padding: 7px;
+  line-height: 2.0;
+  padding-bottom: 8px;
+  display: none;
+}
+.health{
+  cursor: pointer;
+}
+.health:hover .healthbeauty{
+  display: block;
+}
 .baby{
   padding-top: 15.5px;
   font-size: 14px;
@@ -212,6 +283,27 @@ nav{
   position: absolute;
   margin-left: 78px;
   margin-top: -31px;
+}
+.babyitem{
+  display:flex;
+  flex-direction: column;
+  margin-top: 27px;
+  position: absolute;
+  margin-left: -87px;
+  z-index: 5;
+  background-color: white;
+  color: #222;
+  width: 187px;
+  padding: 7px;
+  line-height: 2.0;
+  padding-bottom: 8px;
+  display: none;
+}
+.baby:hover{
+  cursor: pointer;
+}
+.baby:hover .babyitem{
+  display: block;
 }
 /*.wrapper{
   width: 1034px;
@@ -249,11 +341,13 @@ nav{
 .images{
   display: flex;
   width: 100%;
+  
 }
 .images img{
   height: 400px;
   width: 100%;
   transition: all 0.15s ease;
+  
 }
 .images input{
   display: none;
@@ -346,6 +440,11 @@ nav{
   .cart,
   nav{
     display: none;
+  }
+  .images img{
+    height: 105px;
+    margin-top: 21px;
+    margin-left: 45px;
   }
 }
 
