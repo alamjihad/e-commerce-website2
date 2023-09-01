@@ -8,7 +8,7 @@ body{
 img:hover{
   cursor: pointer;
 }
-img{
+.kino{
   height: 25.5px;
   margin-top: 21px;
   margin-left: 136px;
@@ -84,7 +84,7 @@ img{
     margin-top:-9px;
     margin-left:-10px;
 }
-nav{
+.firstnav{
   display: flex;
   background-color: #d43b3b;
   color: #fff;
@@ -335,7 +335,7 @@ nav{
 }*/
 .slider{
   position: relative;
-  width: 80%;
+  width: 89.5%;
   overflow: hidden;
 }
 .images{
@@ -345,9 +345,8 @@ nav{
 }
 .images img{
   height: 400px;
-  width: 100%;
+  width: 99%;
   transition: all 0.15s ease;
-  
 }
 .images input{
   display: none;
@@ -358,25 +357,92 @@ nav{
   margin: 5px;
 }
 .dots label{
-  height: 20px;
-  width: 20px;
+  height: 7px;
+  width: 7px;
   border-radius: 50%;
   background-color: black;
   cursor: pointer;
   transition: all 0.15s ease;
   margin: 5px;
   padding: -10px;
+  margin-top: -45px;
 }
 .dots label:hover{
-  background-color:#d43b3b;}
+  background-color:#d43b3b;
+}
   #img1:checked ~ .img1{
-    margin-left: 0;
+    margin-left: 137px;
+    margin-top: 1px;
   }
   #img2:checked ~ .img2{
-    margin-left: -100%;
+    margin-left: 11.9%;
+    margin-top: 1px;
+    height: 421px;
   }
-
-
+  #img2:checked ~ .img1{
+    display: none;
+  }
+  .nav2nd{
+    font-size: 20px;
+    color: #ffffff;
+   padding:5px;
+   height: 35px;
+    background-color: #dc3545;
+    display: flex;
+    margin-left: 137px;
+    margin-right: 136.3px;
+  }
+  h4{
+    letter-spacing: 0.5px
+  }
+  .product{
+    display: flex;
+    flex-direction: column;
+    margin-left: 136.5px;
+    border: 1px solid lightslategrey;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 21px;
+    border-radius: 3px;
+  }
+  .product2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 21px;
+    border: 1px solid lightslategrey;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 21px;
+    border-radius: 3px;
+  }
+  .products{
+    height: 145px;
+    width: 135px;
+  }
+  .o{
+    display: flex;
+    flex-direction: row;
+  }
+  .prod{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+.order{
+  font-size: 20px;
+  color: #d43b3b;
+  padding-left: 11px;
+}
+.ordernow{
+  background-color: #dc3545;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  width: 11.5%;
+  font-size: 15px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
 
 
 
