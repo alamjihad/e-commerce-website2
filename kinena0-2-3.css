@@ -5,7 +5,7 @@ body{
 .header{
   display: flex;
 }
-img:hover{
+.kino:hover{
   cursor: pointer;
 }
 .kino{
@@ -47,6 +47,7 @@ img:hover{
 }
 .call-icon{
   margin-left: 36px;
+  margin-top: 17px;
   height: 29px;
 }
 .call{
@@ -419,15 +420,13 @@ img:hover{
     letter-spacing: 0.5px
   }
   .portable{
-    font-size: 14.5px;
+    font-size: 14px;
   }
   .portable:hover{
     cursor: pointer;
     color:#d43b3b;
   }
   .product{
-    display: flex;
-    flex-direction: column;
     margin-left: 136.5px;
     border: 1px solid lightslategrey;
     display: inline-block;
@@ -456,6 +455,7 @@ img:hover{
   }
   .container:hover img{
     transform: scale(1.1);
+    cursor: pointer;
   }
   .products{
     height: 145px;
@@ -525,6 +525,8 @@ button{
   color: #ffffff;
   margin-left: 135px;
   padding-top: 13px;
+  display: flex;
+  flex-direction: column;
 }
 html{
   scroll-behavior:smooth;
@@ -570,12 +572,13 @@ html{
   }
   .bag2{
     position: relative;
+    font-family: 45px;
   }
   .zero2{
     color: #fff;
     font-size: 10px;
     position: absolute;
-    left: 17px;
+    left: 55px;
     top: -1px;
     width: 20px;
     height: 20px;
@@ -587,15 +590,164 @@ html{
     font-weight: 500;
     border-radius: 100%
   }
-  .cart,
-  nav{
+  .cart{
     display: none;
   }
-  .images img{
+  /*.images img{
     height: 105px;
     margin-top: 21px;
     margin-left: 45px;
+  }*/
+  .footer{
+    display: flex;
+    height: 15vh;
+    flex-direction: column;
+    width: 1090px;
+    justify-content: center;
   }
+  .foot{
+    margin-left: 5px;
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+  }
+  .to-top{
+    padding: 30px;
+  }
+  .payment{
+    height: 155px;
+    padding-left: 355px;
+  }
+  .nav3rd{
+    width: 175%;
+    margin-left: 23px;
+    font-size: 37px;
+    height: 71px;
+  }
+  button{
+    margin-left: -100px;
+    font-size: 29px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .nav2nd{
+    margin-left: 23px;
+    width: 175%;
+    height: 70px;
+    font-size: 34px;
+    padding-top: 13px;
+    display: flex;
+  }
+  #img1:checked ~ .img2 {
+    display: none;
+}
+#img2:checked ~ .img1 {
+  display: none;
+}
+#img2:checked ~ .img2 {
+  margin-left: 31px;
+}
+#img1:checked ~ .img1 {
+  margin-left: 31px;
+}
+.header{
+  height: 100px;
+  width: 100%;
+}
+.kino{
+  height: 60px;
+  margin-left: 37px;
+}
+
+.headmedia{
+  font-size: 29px;
+  margin-left: 613px;
+  padding-top: 47px;
+  display: flex;
+}
+#search{
+  margin-top: -13px;
+  padding-left: 55px;
+  font-size: 29px;
+}
+.bag2{
+  margin-top: -21px;
+  padding-left: 31px;
+}
+.glass2{
+  margin-top: -21px;
+  padding-left: 29px;
+}
+.product{
+  margin-left:21px;
+  width: 43.5%;
+}
+.product2{
+  margin-left:21px;
+  width: 43.5%;
+}
+.products{
+  height: 500px;
+  width: 310px;
+}
+.portable{
+  font-size: 24px;
+}
+.o{
+  font-size: 24px;
+}
+.ordernow{
+  font-size: 20px;
+  padding-left: 59px;
+  padding-right: 59px;
+}
+del{
+  padding-top: 0;
+}
+.firstnav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top:0;
+  left:0;
+  display: none;
+  z-index: 99;
+  background-color: #fff;
+  color: #222;
+  width: 550px;
+  height: 200vh;
+  transition: 0.3s;
+  border-bottom: 3px lightslategrey;
+}
+.firstnav .active{
+  display: block;
+}
+.home{
+  margin-top: 71px;
+  margin-left: 25px;
+  font-size: 29px;
+}
+.health{
+  display: none;
+}
+.baby{
+  display: none;
+}
+.mobile{
+  display: none;
+}
+.computer{
+  display: none;
+}
+.fashion{
+  display: none;
+}
+.homelive{
+  display: none;
+}
 }
 
 

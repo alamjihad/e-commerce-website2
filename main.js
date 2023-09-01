@@ -9,4 +9,15 @@ window.addEventListener("scroll",()=>{
   {
     toTop.classList.remove("active");
   }
-})
+});
+
+
+
+
+const bar=document.getElementById('bar');
+const nav =document.getElementsByClassName('firstnav')
+if(bar){
+  bar.addEventListener('click',()=>{
+    nav.classList.add('active');
+  })
+}
