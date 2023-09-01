@@ -366,6 +366,7 @@ img:hover{
   margin: 5px;
   padding: -10px;
   margin-top: -45px;
+  margin-left: 5px;
 }
 .dots label:hover{
   background-color:#d43b3b;
@@ -377,7 +378,7 @@ img:hover{
   #img2:checked ~ .img2{
     margin-left: 11.9%;
     margin-top: 1px;
-    height: 421px;
+    height: 400px;
   }
   #img2:checked ~ .img1{
     display: none;
@@ -391,9 +392,38 @@ img:hover{
     display: flex;
     margin-left: 137px;
     margin-right: 136.3px;
+    margin-top: 25px;
+    margin-bottom: 11px;
   }
+ .to-top{
+  color: #d43b3b;
+  position: fixed;
+  bottom: 91px;
+  right: 39px;
+  border: 1px solid #d43b3b;
+  padding: 5px 7px;
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+ }
+ .to-top.active{
+  pointer-events: auto;
+  opacity: 1;
+ }
+ .to-top:hover{
+  background-color: #d43b3b;
+  color: #ffffff;
+ }
   h4{
     letter-spacing: 0.5px
+  }
+  .portable{
+    font-size: 14.5px;
+  }
+  .portable:hover{
+    cursor: pointer;
+    color:#d43b3b;
   }
   .product{
     display: flex;
@@ -404,16 +434,28 @@ img:hover{
     padding: 5px;
     margin-top: 21px;
     border-radius: 3px;
+    padding-bottom: 7px;
   }
   .product2{
     display: flex;
     flex-direction: column;
-    margin-left: 21px;
+    margin-left: 20.3px;
     border: 1px solid lightslategrey;
     display: inline-block;
     padding: 5px;
     margin-top: 21px;
     border-radius: 3px;
+    padding-bottom: 7px;
+  }
+  .container{
+    overflow: hidden;
+  }
+  .container img{
+    display: block;
+    transition: transform 2s;
+  }
+  .container:hover img{
+    transform: scale(1.1);
   }
   .products{
     height: 145px;
@@ -443,8 +485,50 @@ img:hover{
   padding-left: 19px;
   padding-right: 19px;
 }
-
-
+.ordernow:hover{
+  cursor: pointer;
+}
+.nav3rd{
+  font-size: 20px;
+  color: #ffffff;
+ padding:5px;
+ height: 35px;
+  background-color: #dc3545;
+  display: flex;
+  margin-left: 137px;
+  margin-right: 136.3px;
+  margin-top: 45px;
+  justify-content: space-between;
+}
+.all{
+  display: flex;
+}
+button{
+  background-color: #198754;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  padding: 5px;
+  border: #198754;
+}
+.footer{
+  margin-top: 75px;
+  width: 101.3%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d43b3b;
+  height: 71px;
+  margin-left: -5.5px;
+  }
+.foot{
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 135px;
+  padding-top: 13px;
+}
+html{
+  scroll-behavior:smooth;
+}
 
 
 
