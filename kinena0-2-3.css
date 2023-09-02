@@ -94,7 +94,7 @@ body{
   color: #fff;
   margin-top: 20px;
   height: 11vh;
-  width: 101.5%;
+  width: 101.2%;
   margin-left: -8px;
 }
 .headmedia{
@@ -401,8 +401,8 @@ body{
  .to-top{
   color: #d43b3b;
   position: fixed;
-  bottom: 69px;
-  right: 33px;
+  bottom: 79px;
+  right: 29px;
   border: 2px solid #d43b3b;
   border-radius: 3px;
   padding: 7px 9px;
