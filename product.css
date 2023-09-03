@@ -25,7 +25,7 @@ body{
   padding-left: 9px;
 }
 .new{
-    width: 41.1%;
+    width: 41.7%;
     border: 2px solid #e2e2e2;
     border-radius: 3px;
     padding-left: 10px;
@@ -97,13 +97,14 @@ body{
   height: 11vh;
   width: 101.2%;
   margin-left: -8px;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
 }
 .headmedia{
   display: none;
 }
 .home{
   font-size: 14px;
-  margin-left: 139px;
+  margin-left: 144px;
   padding-top: 15.5px;
   text-align: center;
 }
@@ -310,7 +311,10 @@ body{
 .baby:hover .babyitem{
   display: block;
 }
-
+.picture{
+  padding-left: 5px;
+  padding-top: 4px;
+}
  .nav2nd{
     font-size: 20px;
     color: #fff!important;
@@ -320,7 +324,7 @@ body{
     display: flex;
     margin-left: 137px;
     margin-right: 136.3px;
-    margin-top: 25px;
+    margin-top: 85px;
     margin-bottom: 11px;
     font-weight: 300!important;
   }
@@ -361,7 +365,7 @@ body{
     border: 1px solid #dee2e6;
     display: inline-block;
     padding: 5px;
-    margin-top: 19px;
+    margin-top: 23px;
     border-radius: 3px;
     padding-bottom: 7px;
     background-color: white;
@@ -374,7 +378,7 @@ body{
     border: 1px solid #dee2e6;
     display: inline-block;
     padding: 5px;
-    margin-top: 19px;
+    margin-top: 23px;
     border-radius: 3px;
     padding-bottom: 7px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15) !important;
@@ -443,6 +447,7 @@ body{
   margin-top: 25px;
   width: 101.13%;
   display: flex;
+  margin-right: -4px;
   justify-content: space-between;
   background-color: #d43b3b;
   height: 65px;
@@ -452,7 +457,7 @@ body{
 .foot{
   font-size: 14px;
   color: #ffffff;
-  margin-left: 135px;
+  margin-left: 145px;
   padding-top: 13px;
   display: flex;
   flex-direction: column;
@@ -469,16 +474,18 @@ html{
 }
 h3 {
   color: #222;
-  margin: 0;
+  letter-spacing: 1px;
+  margin:0;
   padding: 0;
   font-weight: 600;
   display: block;
+  box-sizing: border-box;
   line-height: normal;
   font-size: 28px;
 }
 
 .avail{
-  margin-top: -10px;
+  margin-top: -11px;
   min-width: 105px;
   font-weight: 600;
   display: inline-block;
@@ -501,35 +508,40 @@ del{
   text-decoration: line-through;
 }
 .discount{
-  margin-top: 10px;
+  margin-top: 4px;
   background-color: #d43b3b;
     font-size: 13px;
     color: #fff;
-    margin-left: 6px;
+    margin-left: 11px;
     padding-right: 5px;
     padding-left: 13px;
     padding-top: 2px;
-    padding-bottom: 1px;
+    padding-bottom: -1px;
     transform: rotate(-35deg);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 20% 50%);
     display: inline-block;
     box-sizing: border-box;
 }
+.now{
+  display: flex;
+  flex-direction: column;
+}
 .buy_now{
-  width: 100%;
-  margin: 2px;
+  width: 105%;
   display: inline-block;
   margin-top: 35px;
   display: flex;
 }
 .odd{
   color: #fff;
-  width: 100%;
+  width: 48%;
     background-color: #dc3545;
     border-color: #dc3545;
     padding: 6px 12px;
     font-weight: 400;
     line-height: 1.5;
+    margin-top: -6px;
+    margin-left: 2px;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -543,12 +555,13 @@ del{
 }
 .buy{
   color: #fff;
-  width: 100%;
+  width: 48%;
   margin-left: 5px;
     background-color: #198754;
     border-color: #198754;
     font-weight: 400;
     line-height: 1.5;
+    margin-top: -6px;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -566,7 +579,6 @@ del{
   color: #fff;
     background-color: #0d6efd;
     border-color: #0d6efd;
-    width: 100%;
     margin: 2px;
     display: inline-block;
       font-weight: 400;
@@ -575,7 +587,7 @@ del{
       vertical-align: middle;
       display: flex;
       flex-direction: column;
-      width: 95.5%;
+      width: 100%;
       cursor: pointer;
       user-select: none;
       border: 1px solid transparent;
@@ -586,7 +598,7 @@ del{
 }
 .price{
   display: flex;
-  margin-top: 13px;
+  margin-top: 19px;
 }
 b{
   font-weight: bolder;
@@ -594,6 +606,7 @@ b{
   color: red;
 }
 table{
+  margin-top: 2px;
   caption-side: bottom;
     border-collapse: collapse;
     text-indent: initial;
@@ -611,7 +624,9 @@ table{
 }
 td{
   border-color: inherit;
-  padding: 5px;
+  padding: 4px;
+  padding-top: 7px;
+  padding-bottom: 7px;
     border-style: solid;
     border-width: 0;
     display: table-cell;
@@ -635,8 +650,8 @@ td{
 .text{
   display: flex;
   flex-direction: column;
-  margin-left: 24px;
-  margin-top: 14px;
+  margin-left: 24.5px;
+  margin-top: 4px;
 }
 .descrip{
   margin-top: -11px;
@@ -648,7 +663,7 @@ td{
   color: #222222;
   font-size: 14px;
   font-family:  'Roboto', sans-serif;
-  line-height: 18px;
+  line-height: 20px;
   text-align: left;
   position: relative;
   letter-spacing: 0.5px;
@@ -887,7 +902,25 @@ del{
 
 
 
-
+@media (max-width:600px) {
+  body{
+    min-height: 100vh;
+    width: 100%;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .odd{
+    width: 300px;
+  }
+  .buy{
+    width: 300px;
+  }
+  .cal{
+    width: 600px;
+  }
+}
 
 
 

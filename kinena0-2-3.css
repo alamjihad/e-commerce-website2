@@ -102,9 +102,10 @@ body{
 }
 .home{
   font-size: 14px;
-  margin-left: 139px;
+  margin-left: 144px;
   padding-top: 15.5px;
   text-align: center;
+  position: relative;
 }
 .home::after{
     position: absolute;
@@ -114,6 +115,48 @@ body{
     width: 1px;
     height: 25px;
     background: rgb(255, 255, 255, 30%);
+}
+.vl1 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:99px;
+  left:209px;
+}
+.vl2 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  left:320px;
+}
+.vl3 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  left:470px;
+}
+.vl4 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  right: 645px;
+}
+.vl5 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  right: 458px;
+}
+.vl6 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  right:290px;
 }
 .fashion{
   font-size: 14px;
@@ -162,7 +205,7 @@ body{
 .homliv{
     display:flex;
     flex-direction: column;
-    margin-top: 39px;
+    margin-top: 27px;
     position: absolute;
     margin-left: -111px;
     z-index: 5;
@@ -198,7 +241,7 @@ body{
 .accesso{
   display:flex;
   flex-direction: column;
-  margin-top: 39px;
+  margin-top: 27px;
   position: absolute;
   margin-left: -185px;
   z-index: 5;
@@ -309,34 +352,20 @@ body{
 .baby:hover .babyitem{
   display: block;
 }
-/*.wrapper{
-  width: 1034px;
-  margin-top: 0;
-}
-.box{
+.images{
+  margin-left: 137px;
   height: 400px;
-  width: 30%;
-  overflow: hidden;
-  position: relative;
-  margin: 0 19px;
-}*/
-/*.img1{
-  z-index: 1;
-  transition: .4s;*/
- /* transform-origin: 50%,50%;*/
-  /*width: 87%;
-  height: 64.5%;
-  
-  margin-top: 1px;
-}*/
-
-/*.img2{
-  width: 78%;
-  height: 28%;
-  margin-top: -1px;
-  overflow: hidden;
-  display: none;
-}*/
+  background-image:url("kine.jpg");
+  animation: changeImage 7s linear 5s 1;
+  }
+  @keyframes changeImage {
+    0%{
+      background-image:url("kine.jpg");
+    }
+    100%{
+      background-image: url("kinenao0.jpg");
+    }
+  }
 .slider{
   position: relative;
   width: 89.5%;
@@ -377,9 +406,9 @@ body{
 }
   #img1:checked ~ .img1{
     margin-left: 130px;
+    height: 400px;
   }
   #img2:checked ~ .img2{
-    margin-left: 11.3%;
     height: 400px;
   }
   #img2:checked ~ .img1{
@@ -392,7 +421,7 @@ body{
    height: 35px;
     background-color: #dc3545;
     display: flex;
-    margin-left: 137px;
+    margin-left: 136.7px;
     margin-right: 136.3px;
     margin-top: 25px;
     margin-bottom: 11px;
@@ -537,10 +566,11 @@ body{
   margin-left: -7.6px;
   margin-bottom: -13px;
   }
+  
 .foot{
   font-size: 14px;
   color: #ffffff;
-  margin-left: 135px;
+  margin-left: 144px;
   padding-top: 13px;
   display: flex;
   flex-direction: column;
@@ -576,7 +606,7 @@ html{
 @media (max-width:600px) {
   body{
     min-height: 100vh;
-    width: 100%;
+    width: 600px;
   }
   
   .new,
