@@ -148,8 +148,7 @@ body{
   display: block;
 }
 
-.living{
-  
+.living{  
   font-size: 14px;
   margin-left: 40px;
   padding-top: 15.5px;
@@ -310,6 +309,48 @@ body{
 }
 .baby:hover .babyitem{
   display: block;
+}
+.vl1 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:99px;
+  left:209px;
+}
+.vl2 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  left:320px;
+}
+.vl3 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  left:470px;
+}
+.vl4 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  right: 645px;
+}
+.vl5 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  right: 458px;
+}
+.vl6 {
+  border-left: 1px solid lightcoral;
+  height: 27px;
+  position: absolute;
+  top:105px;
+  right:290px;
 }
 .picture{
   padding-left: 5px;
