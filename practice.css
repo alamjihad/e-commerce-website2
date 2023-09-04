@@ -20,7 +20,7 @@ body{
 .img-container{
   width: 100%;
   display: flex;
-  animation: slide 15s infinite;
+  animation: slide 16s infinite;
 }
 img{
   width: 100%;
