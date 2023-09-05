@@ -30,7 +30,7 @@ body{
     border-radius: 3px;
     padding-left: 10px;
     margin-top: 13px;
-    height: 38px;
+    height: 39px;
     margin-left: 103.5px;
     letter-spacing:0.5px;
     font-family: inherit;
@@ -42,16 +42,20 @@ body{
     border-radius: 3px;
     align-self: center;
     padding-top: 8.5px;
-    padding-bottom: 7px;
+    padding-bottom: 8px;
     padding-left: 26.5px;
     padding-right: 17.5px;
-    margin-top: 13px;
+    margin-top: 12px;
     margin-left: -5px;
     color: gray;
 }
+.call_div:hover{
+  cursor: pointer;
+  color: #d43b3b;
+}
 .call-icon{
   margin-left: 36px;
-  margin-top: 17px;
+  margin-top: 19.8px;
   height: 29px;
 }
 .call{
@@ -67,7 +71,7 @@ body{
   margin-top: 20px;
 }
 .bag{
-  margin-left: 5px;
+  margin-left: 7  px;
   position: relative;
 }
 .zero{
@@ -355,6 +359,7 @@ body{
 .picture{
   padding-left: 5px;
   padding-top: 4px;
+  margin-top: -1px;
 }
  .nav2nd{
     font-size: 20px;
@@ -372,8 +377,8 @@ body{
  .to-top{
   color: #d43b3b;
   position: fixed;
-  bottom: 69px;
-  right: 33px;
+  bottom: 76px;
+  right: 29px;
   border: 2px solid #d43b3b;
   border-radius: 3px;
   padding: 7px 9px;
@@ -477,7 +482,7 @@ body{
   display: flex;
   margin-left: 137px;
   margin-right: 136.3px;
-  margin-top: 45px;
+  margin-top: 31px;
   justify-content: space-between;
 }
 .all{
@@ -491,7 +496,7 @@ body{
   margin-right: -4px;
   justify-content: space-between;
   background-color: #d43b3b;
-  height: 65px;
+  height: 70px;
   margin-left: -7.6px;
   margin-bottom: -13px;
   }
@@ -501,6 +506,7 @@ body{
   margin-left: 145px;
   padding-top: 13px;
   display: flex;
+  letter-spacing: 0.3px;
   flex-direction: column;
 }
 html{
@@ -551,7 +557,7 @@ del{
 .discount{
   margin-top: 4px;
   background-color: #d43b3b;
-    font-size: 13px;
+    font-size: 14px;
     color: #fff;
     margin-left: 11px;
     padding-right: 5px;
@@ -568,35 +574,39 @@ del{
   flex-direction: column;
 }
 .buy_now{
-  width: 105%;
-  display: inline-block;
+  width: 100%;
   margin-top: 35px;
-  display: flex;
+  display: inline-block;
+  margin-bottom: 7px;
 }
 .odd{
   color: #fff;
-  width: 48%;
+  width: 50%;
     background-color: #dc3545;
     border-color: #dc3545;
-    padding: 6px 12px;
     font-weight: 400;
     line-height: 1.5;
     margin-top: -6px;
     margin-left: 2px;
+    margin-right: -1px;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
     user-select: none;
     border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
+   /* padding: 0.375rem 0.75rem;*/
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 89px;
+   padding-right: 89px;
     font-size: 1rem;
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .buy{
   color: #fff;
-  width: 48%;
+  width: 50%;
   margin-left: 5px;
     background-color: #198754;
     border-color: #198754;
@@ -608,8 +618,11 @@ del{
     vertical-align: middle;
     cursor: pointer;
     user-select: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
+    padding-left: 110px;
+    padding-right: 110px;
     font-size: 1rem;
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -620,15 +633,15 @@ del{
   color: #fff;
     background-color: #0d6efd;
     border-color: #0d6efd;
-    margin: 2px;
     display: inline-block;
       font-weight: 400;
       line-height: 1.5;
       text-decoration: none;
       vertical-align: middle;
       display: flex;
+      margin-top: 5px;
       flex-direction: column;
-      width: 100%;
+      width: 95.8%;
       cursor: pointer;
       user-select: none;
       border: 1px solid transparent;
@@ -666,8 +679,8 @@ table{
 td{
   border-color: inherit;
   padding: 4px;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
     border-style: solid;
     border-width: 0;
     display: table-cell;
@@ -691,8 +704,8 @@ td{
 .text{
   display: flex;
   flex-direction: column;
-  margin-left: 24.5px;
-  margin-top: 4px;
+  margin-left: 24px;
+  margin-top: 3px;
 }
 .descrip{
   margin-top: -11px;
