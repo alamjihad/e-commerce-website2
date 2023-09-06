@@ -24,12 +24,12 @@ body{
   padding-left: 9px;
 }
 .new{
-    width: 41.1%;
+    width: 42%;
     border: 2px solid #e2e2e2;
     border-radius: 3px;
     padding-left: 10px;
-    margin-top: 13px;
-    height: 38px;
+    margin-top: 12px;
+    height: 39px;
     margin-left: 103.5px;
     letter-spacing:0.5px;
     font-family: inherit;
@@ -40,11 +40,11 @@ body{
   border-right: 2px solid #e2e2e2;
     border-radius: 3px;
     align-self: center;
-    padding-top: 8.5px;
+    padding-top: 10px;
     padding-bottom: 7px;
     padding-left: 26.5px;
     padding-right: 17.5px;
-    margin-top: 13px;
+    margin-top: 11px;
     margin-left: -5px;
     color: gray;
 }
@@ -398,26 +398,28 @@ h4{
   color:#d43b3b;
 }
 .product{
-  margin-left: 136.5px;
+  margin-left: 136px;
   border: 1px solid #dee2e6;
   display: inline-block;
-  padding: 5px;
+  padding: 5.5px;
   margin-top: 19px;
+
   border-radius: 3px;
-  padding-bottom: 7px;
+  padding-bottom: 11px;
   background-color: white;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15) !important;
 }
 .product2{
   display: flex;
   flex-direction: column;
-  margin-left: 20.3px;
+  margin-left: 19.5px;
   border: 1px solid #dee2e6;
+
   display: inline-block;
-  padding: 5px;
+  padding: 5.5px;
   margin-top: 19px;
   border-radius: 3px;
-  padding-bottom: 7px;
+  padding-bottom: 11px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15) !important;
 }
 .container{
@@ -450,16 +452,17 @@ color: #d43b3b;
 padding-left: 11px;
 }
 .ordernow{
-background-color: #dc3545;
-color: #fff;
-border-radius: 3px;
-width: 11.5%;
-margin-top: 3px;
-font-size: 13px;
-padding-left: 24px;
-padding-right: 24px;
-padding-top: 5px;
-padding-bottom: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 3px;
+  width: 11.5%;
+  
+  font-size: 13px;
+  padding-left: 25.2px;
+  padding-right: 25.2px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-top: 11px;
 }
 .ordernow:hover{
 cursor: pointer;
@@ -468,6 +471,18 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.l:hover,
+.r:hover,
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
+.seven:hover{
+  cursor: pointer;
+  background-color: lightblue;
 }
 .l,
 .r,
@@ -478,7 +493,10 @@ cursor: pointer;
 .five,
 .six,
 .seven{
-  padding: 11px;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   margin-top: 55px;
   border: 1px solid #dee2e6;
   padding-top: 5px;
