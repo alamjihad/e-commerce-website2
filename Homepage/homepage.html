@@ -7,10 +7,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="kinena0-2-3.css">
+  <link rel="stylesheet" href="homepage.css">
   <title>Document</title>
 </head>
 <body>
+  <!---------------------------------------------------header starts----------------------------------------------------->
   <div class="header">
     <img src="kinenao.jpg" class="kino">
     <input type="text" placeholder="  Search Product." class="new">
@@ -51,6 +52,7 @@
     </span>
     </div>
   </div>
+  <!------------------------------------------------------nav bar starts-------------------------------------------------->
   <nav class="firstnav">
     <div class="icon">
       
@@ -166,26 +168,36 @@
       </div>
     </div> 
   </nav>
-  <div class="arrow dots">
-    <label class="leftangle" for="img1">
-      <i class="fa-solid fa-angle-left fa-2xl" id="img1"></i>
-    </label>
-    <label class="rightangle" for="img2">
-      <i class="fa-solid fa-angle-right fa-2xl" id="img2"></i>
-    </label>    
-  </div>
-  <div class="slider">
+  <!------------------------------------------------------nav bar ends--------------------------------------------------------->
+
+  <!--------------------------------------------------------headers end--------------------------------------------------------->
+
+
+  <!---------------------------------------------------------content starts-------------------------------------------------------->
+
+
+  <!----------------------------------------------------------banners html starts------------------------------------------------------------>
+  <div class="slider" id="content">
     <div class="images">
-      <input type="radio"  class="img1" style="align-items:baseline;" checked>
-      <input type="radio"  class="img2">
-      <img src="kine.jpg" class="img1">
-      <img src="kinenao0.jpg" class="img2">
+      <!--name/value-->
+      <input type="radio" name="slide" id="img1" style="align-items:baseline;" checked>
+      <input type="radio" name="slide" id="img2">
+      <img src="kine.jpg" class="m1">
+      <img src="kinenao0.jpg" class="m2">
     </div>
-    <!-- <div class="dots">
+     <div class="dots">
       <label for="img1"></label>
       <label for="img2"></label>
-    </div> -->
+    </div> 
+    <div onclick="side_slide(-1)" class="slide left">
+    <i class="fa-solid fa-angle-left fa-2xl"></i>
+    </div>
+    <div onclick="side_slide(1)" class="slide right">
+      <i class="fa-solid fa-angle-right fa-2xl"></i>
+    </div>
   </div>
+  <!--------------------------------------------------------banner html ends------------------------------------------------------------>
+  <!----------------------------------------------------------products images start----------------------------------------------------->
   <div class="featured">
     <div class="nav2nd">
       <i class="fa-solid fa-angle-right fa-sg" style="margin-top: 0px;padding: 7px;"></i>
@@ -1719,7 +1731,10 @@
         অর্ডার করুন
       </span>  
     </div>
-          
+    <!---------------------------------------------------------products images end------------------------------------------------------>
+   <!------------------------------------------------------------content ends-------------------------------------------------------------->  
+   
+   <!------------------------------------------------------------footer starts----------------------------------------------------------------->
   <div class="footer">
     <div class="foot">
       <div class="f">
@@ -1738,7 +1753,7 @@
     </div>
     
   </div>
-
+<!------------------------------------------------------------------footers end-------------------------------------------------------------------->
   <script src="main.js">
     
   </script>
