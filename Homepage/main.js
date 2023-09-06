@@ -45,5 +45,5 @@ function showImg(e){
   {
     img[i].style.display = "none";
   }
-  img[indexValue - 1].style.display = "block";
+  img[indexValue-1].style.display = "block";
 }*/

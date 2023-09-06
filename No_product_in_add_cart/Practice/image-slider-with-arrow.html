@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
+    <link rel="stylesheet" href="image-slider-with-arrow.css">
+</head>
+<body>
+    <div class="content">
+        <div class="images">
+            <img src="comp.png">
+            <img src="computer.png">
+            <img src="kine.jpg">
+            <img src="kinenao.jpg">
+        </div>
+    </div>
+    <div onclick="side_slide(-1)" class="side left">
+        <span class="fa-solid fa-angle-left fa-2xl"></span>
+    </div>
+    <div onclick="side_slide(1)" class="side right">
+        <span class="fa-solid fa-angle-right fa-2xl"></span>
+    </div>
+    <div class="btm-sliders">
+        <span onclick="btm_slider(1)">
+            
+        </span>
+        <span onclick="btm_slider(2)">
+            
+        </span>
+        <span onclick="btm_slider(4)">
+            
+        </span>
+        <span onclick="btm_slider(1)">
+            
+        </span>
+    </div>
+    <script>
+        var indexValue = 1;
+        showImg(indexValue);
+        function btm_slider(e){showImg(indexValue = e);}
+        function side_slider(e){showImg(indexValue += e);}
+        function showImg(e){
+            var i;
+            const img=document.querySelectorAll('img');
+            const sliders=document.querySelectorAll('.btm-sliders span');
+            if(e>img.lenght){indexValue = 1}
+            if(e<1){indexValue = img.length}
+            for(i=0;i<img.length;i++){
+                img[i].style.display ="none";
+            }
+            img[indexValue-1].style.display ="block";
+        }
+    </script>
+</body>
+</html>
