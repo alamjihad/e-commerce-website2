@@ -96,6 +96,7 @@ body{
   height: 11.5vh;
   width: 101.2%;
   margin-left: -8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
 }
 .lap{
   display: none;
@@ -567,14 +568,17 @@ html{
 
 
 @media (max-width:600px) {
-.header{
-  background-color: white;
-}
   body{
     min-height: 100vh;
    width: 100%;
   }
-  
+  .header{
+    background-color: white;
+    margin-left: -9px;
+    margin-right: 9px;
+    padding-left: 9px;
+    margin-top: -6px;
+  }
   .new,
   .magnefyne{
     display: none;
@@ -582,6 +586,7 @@ html{
   .kino{
     width: 100%;
     padding-top: 9px;
+    padding-left: 9px;
   }
   img{
     height: 22px;
@@ -593,22 +598,24 @@ html{
   }
   .headmedia{
     display: inline;
-    margin-left: 195px;
-    margin-top: 3px;
-    
+    margin-left: 199px;
+    margin-top: -1px;    
+  }
+  #bar{
+    padding-left: 23px;
+    padding-top: -2px;
   }
   .bag2{
     position: relative;
-    font-family: 45px;
   }
   .zero2{
     color: #fff;
     font-size: 12px;
     position: absolute;
-    left: 18px;
+    left: 20px;
     top: -3px;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     display: flex;
     
     align-items: center;
@@ -639,11 +646,11 @@ html{
   }
   .footer{
     display: flex;
-    height: 32vh;
+    height: 35vh;
     flex-direction: column;
-    width: 599px;
+    width: 599.5px;
     justify-content: center;
-    margin-bottom: -5px;
+    
   }
   .foot{
     margin-left: 5px;
@@ -651,7 +658,7 @@ html{
     display: flex;
     flex-direction: row;
     padding-left: 25px;
-    padding-top: 25px;
+    padding-top: -3px;
     
   }
   .pay{
@@ -667,18 +674,14 @@ html{
     padding-top: 8px;
     padding-bottom: 8px;
     border: 2px solid #d43b3b;
-    bottom: 119px;
+    bottom: 89px;
     border-radius: 5px;
   }
   .payment{
     height: 35px;
     padding-left:  355px;
-    padding-bottom: 47px;
   }
 
-  h4{
-    padding-top: 3px;
-  }
   .a{
     padding-top: 3px;
   }
@@ -690,8 +693,8 @@ html{
   }
 
   .nav2nd{
-    margin-left: 15px;
-    width: 92%;
+    margin-left: 7px;
+    width: 94.3%;
     height: 38px;
     font-size: 21px;
     padding-top: 13px;
@@ -700,13 +703,13 @@ html{
   .f{
     font-size: 13px;
     margin-left: -7px;
-    padding-top: 19px;
+    padding-top: 0;
   }
  
 .header{
   display: flex;
   justify-content: space-between;
-
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
   align-items: center;
   padding: 10px 8px;
   position: relative;
@@ -721,40 +724,49 @@ html{
 
 .headmedia{
   font-size: 15px;
-  margin-left: 480px;
-  padding-top: 7px;
+  margin-left: 473px;
+  padding-top: 11px;
   display: flex;position: absolute;
 }
 #search{
-  margin-top: 13px;
+  margin-top: 14px;
   margin-left: -10px;
-  font-size: 15px;
+  
 }
 .bag2{
-  margin-top: -13px;
-  padding-left: 1px;
+  margin-top: -12px;
+  padding-left: 3px;
 }
 .glass2{
-  margin-top: -21px;
-  padding-left: 19px;
+  margin-top: -15px;
+  padding-left: 17px;
 }
 .product{
-  margin-left:15px;
-  padding-bottom: 19px;
-  width: 250px;
+  margin-left:8px;
+  margin-right: 3px;
+  padding-bottom: 13px;
+  width: 264px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .product2{
   margin-left:15px;
-  padding-bottom: 19px;
-width: 250px;
- 
+  padding-bottom: 13px;
+width: 264px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#pd{
+  margin-left: 8px;
 }
 .container img{
   display: inline-block;
 }
 .products{
-  height: 195px;
-  width: 235px;
+  height: 250px;
+  width: 264px;
+  margin: 0;
+  padding: 0;
 }
 .portable{
   font-size: 15px;
@@ -772,11 +784,11 @@ width: 250px;
   padding-bottom: 5px;
 }
 .ordernow{
-  font-size: 12px;
-  padding-left: 83px;
-  padding-right: 83px;
-  padding-top: 12px;
-  padding-bottom: 14px;
+  font-size: 14px;
+  padding-left: 84px;
+  padding-right: 84px;
+  padding-top: 9px;
+  padding-bottom: 11px;
 }
 del{
   font-size: 16px;

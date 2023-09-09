@@ -51,11 +51,11 @@ body{
   border-right: 2px solid #e2e2e2;
     border-radius: 3px;
     align-self: center;
-    padding-top: 8px;
-    padding-bottom: 7.5px;
+    padding-top: 11px;
+    padding-bottom: 10.5px;
     padding-left: 29px;
     padding-right: 20px;
-    margin-top: 13px;
+    margin-top: 12px;
     margin-left: -5px;
     color: gray;
     font-weight: 600;
@@ -164,21 +164,21 @@ a:hover{
   height: 27px;
   position: absolute;
   top:105px;
-  right: 645px;
+  right: 663px;
 }
 .vl5 {
   border-left: 1px solid lightcoral;
   height: 27px;
   position: absolute;
   top:105px;
-  right: 458px;
+  right: 480px;
 }
 .vl6 {
   border-left: 1px solid lightcoral;
   height: 27px;
   position: absolute;
   top:105px;
-  right:290px;
+  right:325px;
 }
 .fashion{
   font-size: 14px;
@@ -227,7 +227,7 @@ a:hover{
 .homliv{
     display:flex;
     flex-direction: column;
-    margin-top: 27px;
+    margin-top: 39px;
     position: absolute;
     margin-left: -111px;
     z-index: 5;
@@ -263,9 +263,9 @@ a:hover{
 .accesso{
   display:flex;
   flex-direction: column;
-  margin-top: 27px;
+  margin-top: 31px;
   position: absolute;
-  margin-left: -185px;
+  margin-left: -163px;
   z-index: 5;
   background-color: white;
   color: #222;
@@ -294,7 +294,7 @@ a:hover{
 .mobaccesso{
   display:flex;
   flex-direction: column;
-  margin-top: 27px;
+  margin-top: 41px;
   position: absolute;
   margin-left: -143px;
   z-index: 5;
@@ -325,7 +325,7 @@ a:hover{
 .healthbeauty{
   display:flex;
   flex-direction: column;
-  margin-top: 27px;
+  margin-top: 40px;
   position: absolute;
   margin-left: -123px;
   z-index: 5;
@@ -356,7 +356,7 @@ a:hover{
 .babyitem{
   display:flex;
   flex-direction: column;
-  margin-top: 27px;
+  margin-top: 39px;
   position: absolute;
   margin-left: -87px;
   z-index: 5;
@@ -385,14 +385,14 @@ a:hover{
     top: 49.4%;
     left: 42.2%;
     transform: translate(-40%,-40%);
-    /*box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);*/
+    box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);
     overflow: hidden;
   }
   .images{
     width: 100%;
     height: 100%;
     display: flex;
-    animation: slide-in 25s 1;
+    animation: slide-in 25s infinite;
   }
 
    @keyframes slide-in{
@@ -403,10 +403,10 @@ a:hover{
       transform: translateX(0);
     }
     25%{
-      transform: translateX(-100%);
+      transform: translateX(-107%);
     }
     100%{
-      transform: translateX(-100%);
+      transform: translateX(-107%);
     }
 
 }  
@@ -548,7 +548,7 @@ a:hover{
     margin-top: 19px;
 
     border-radius: 3px;
-    padding-bottom: 11px;
+    padding-bottom: 13px;
     background-color: white;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15) !important;
   }
@@ -562,7 +562,7 @@ a:hover{
     padding: 5.5px;
     margin-top: 19px;
     border-radius: 3px;
-    padding-bottom: 11px;
+    padding-bottom: 13px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15) !important;
   }
   .container{
@@ -582,6 +582,7 @@ a:hover{
   }
   .o{
     display: flex;
+    padding-bottom: 5px;
     flex-direction: row;
   }
   .prod{
@@ -603,9 +604,9 @@ a:hover{
   font-size: 13px;
   padding-left: 25.2px;
   padding-right: 25.2px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  margin-top: 11px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 15px;
 }
 .ordernow:hover{
   cursor: pointer;
@@ -732,16 +733,16 @@ html{
   }
   .bag2{
     position: relative;
-    font-family: 45px;
+    
   }
   .zero2{
     color: #fff;
     font-size: 12px;
     position: absolute;
-    left: 18px;
-    top: -3px;
-    width: 20px;
-    height: 20px;
+    left: 22px;
+    top: -6px;
+    width: 18px;
+    height: 18px;
     display: flex;
     
     align-items: center;
@@ -777,12 +778,12 @@ html{
     
   }
   .footer{
-    display: flex;
-    height: 27vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    height: 33vh;
     flex-direction: column;
     width: 600px;
     justify-content: center;
-    margin-bottom: -5px;
   }
   .foot{
     margin-left: 5px;
@@ -790,13 +791,13 @@ html{
     display: flex;
     flex-direction: row;
     padding-left: 25px;
-    padding-top: 25px;
+    padding-top: 17px;
     
   }
   .pay{
     height: 18px;
     padding-left: 11px;
-  
+    padding-top: 5px;
   }
   .to-top{
     right: 30px;
@@ -805,17 +806,18 @@ html{
     padding-top: 8px;
     padding-bottom: 8px;
     border: 2px solid #d43b3b;
-    bottom: 103px;
+    bottom: 83px;
     border-radius: 5px;
   }
   .payment{
     height: 35px;
     padding-left:  355px;
-    padding-bottom: 47px;
+    padding-bottom: 0;
+    display: inline-block;
   }
   .nav3rd{
-    width: 90%;
-    margin-left: 23px;
+    width: 92%;
+    margin-left: 10px;
     font-size: 21px;
     height: 40px;
     padding-top: 1px;
@@ -836,7 +838,6 @@ html{
     margin-top: 5px;
   }
   .button{
-    
     margin-bottom: 3px;
     padding-top:5px;
     margin-left: -100px;
@@ -848,29 +849,89 @@ html{
     
   }
   .nav2nd{
-    margin-left: 15px;
-    width: 92%;
+    margin-left: 10px;
+    width: 93%;
     height: 38px;
     font-size: 21px;
     padding-top: 13px;
     display: flex;
     margin-top: -271px;
+    margin-right: 1px;
   }
-  #img1:checked ~ .img2 {
-    display: none;
-}
+  .dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+  .dots label{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #d43b3b;;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+    padding: -10px;
+    margin-top: -20px;
+    margin-left: 5px;
+  }
+ 
 #img2:checked ~ .img1 {
   display: none;
 }
 #img2:checked ~ .img2 {
-  margin-left: 31px;
+  margin-top: 13px;
+  margin-left: 0;
+  height: 149px;
+  width: 570px;
+  display: block;
 }
 #img1:checked ~ .img1 {
-  margin-left: 31px;
-  padding-top: 9px;
+  overflow: hidden;
+  margin-left: 7px;
+  padding-top: 7px;
   background-position:right 35% bottom;
   height: 149px;
   width: 570px;
+  margin-top: 13px;
+}
+.slider{
+  top: 60.7%;
+  left: 45.7%;
+  transform: translate(-40%,-40%);
+  box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.images{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /*animation: slide-in 25s infinite;*/
+}
+
+ @keyframes slide-in{
+  0%{
+    transform: translateX(0);
+  }
+  15%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(-102%);
+  }
+  100%{
+    transform: translateX(-102%);
+  }
+}
+.img1{
+  padding-right: 33px;
+}   
+.img2 {
+  margin-top: 19px;
+  margin-right: -800px;
+  height: 140px;
+  width: 563px;
+  display: block;
 }
 .header{
   display: flex;
@@ -878,12 +939,14 @@ html{
   align-items: center;
   padding: 10px 8px;
   position: relative;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
 }
 .kino{
-  height: 40px;
-  width: 160px;
-  margin-left: 5px;
-  margin-top: -15px;
+  height: 35px;
+  width: 137px;
+  margin-left: -5px;
+  padding-left: 5px;
+  margin-top: -17px;
 
 }
 
@@ -893,36 +956,49 @@ html{
   padding-top: 7px;
   display: flex;position: absolute;
 }
+#bar{
+  margin-left: 7px;
+  margin-top: -6px;
+}
 #search{
-  margin-top: 13px;
-  margin-left: -10px;
-  font-size: 15px;
+  margin-top: 14px;
+  margin-left: -13px;
+  
 }
 .bag2{
-  margin-top: -13px;
-  padding-left: 1px;
+  margin-top: -17px;
+  padding-left: 4px;
 }
 .glass2{
   margin-top: -21px;
   padding-left: 19px;
 }
 .product{
-  margin-left:15px;
-  padding-bottom: 19px;
-  width: 250px;
+  margin-left:8px;
+  margin-right: 3px;
+  padding-bottom: 13px;
+  width: 258px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 .product2{
-  margin-left:15px;
-  padding-bottom: 19px;
-width: 250px;
- 
+  margin-left:3px;
+  padding-bottom: 13px;
+width: 258px;
+padding-left: 3px;
+padding-right: 3px;
+}
+#pd{
+  margin-left: 8px;
 }
 .container img{
   display: inline-block;
 }
 .products{
-  height: 195px;
-  width: 230px;
+  height: 250px;
+  width: 258px;
+  margin: 0;
+  padding: 0;
 }
 .portable{
   font-size: 15px;
@@ -946,11 +1022,11 @@ width: 250px;
   padding-bottom: 5px;
 }
 .ordernow{
-  font-size: 12px;
-  padding-left: 83px;
-  padding-right: 83px;
-  padding-top: 12px;
-  padding-bottom: 14px;
+  font-size: 14px;
+  padding-left: 81px;
+  padding-right: 81px;
+  padding-top: 9px;
+  padding-bottom: 11px;
 }
 del{
   font-size: 16px;
