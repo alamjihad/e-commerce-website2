@@ -353,9 +353,6 @@ body{
   right:307px;
 }
 
-
-
-
 .main_box{
   display: flex;
   flex-direction: column;
@@ -379,7 +376,6 @@ h2{
     position: relative;
 }
 .button{
-  width: 14.1%;
   align-items: center;
   flex: 1 1 auto;
   padding: 1rem 1rem;
@@ -403,18 +399,6 @@ h2{
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -448,4 +432,247 @@ html{
 .tech:hover{
   cursor: pointer;
   opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+  body{
+    min-height: 100vh;
+   width: 100%;
+  }
+  .header{
+    background-color: white;
+    margin-left: -9px;
+    margin-right: 9px;
+    padding-left: 9px;
+    margin-top: -6px;
+    
+  }
+  .new,
+  .magnefyne{
+    display: none;
+  }
+  .kino{
+    width: 100%;
+    padding-top: 9px;
+    padding-left: 9px;
+  }
+  img{
+    height: 22px;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+  .call_div{
+    display: none;
+  }
+  .headmedia{
+    display: inline;
+    margin-left: 199px;
+    margin-top: -1px;    
+  }
+  .main_box{
+    margin-top: 68px;
+    margin-left: 7px;
+    margin-right: 15px;
+  }
+  #bar{
+    padding-left: 23px;
+    padding-top: -2px;
+  }
+  .bag2{
+    position: relative;
+  }
+  .zero2{
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 20px;
+    top: -3px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #d43b3b;
+    font-weight: 500;
+    border-radius: 100%
+  }
+  .something{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+
+  .cart{
+    display: none;
+  }
+  
+  /*.images img{
+    height: 105px;
+    margin-top: 21px;
+    margin-left: 45px;
+  }*/
+  .images{
+    position: relative;
+    
+  }
+  .footer{
+    display: flex;
+    height: 35vh;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    padding-right: 8px;
+  }
+  .foot{
+    margin-left: 5px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-top: -3px;
+    
+  }
+  .payment{
+    margin-top: -15px;
+  }
+  .pay{
+    height: 18px;
+    padding-left: 11px;
+    margin-left: -185px;
+    margin-top: -15px;
+  }
+  .to-top{
+    right: 33px;
+    font-size: 12px;
+    padding:10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid #d43b3b;
+    bottom: 89px;
+    border-radius: 5px;
+  }
+  .payment{
+    height: 35px;
+    padding-left:  165px;
+  }
+  .nav2nd{
+    margin-left: 7px;
+    width: 94.3%;
+    height: 38px;
+    font-size: 21px;
+    padding-top: 13px;
+    display: flex;
+  }
+  .f{
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-left: -7px;
+    margin-top: -18px;
+  }
+  .f2{
+    margin-top: -18px;
+  }
+ 
+.header{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  padding: 10px 8px;
+  position: relative;
+  margin-right: -1px;
+}
+.kino{
+  height: 37px;
+  width: 140px;
+  margin-left: -1px;
+  margin-top: -16px;
+
+}
+
+.headmedia{
+  font-size: 15px;
+  margin-left: 473px;
+  padding-top: 11px;
+  display: flex;position: absolute;
+}
+#search{
+  margin-top: 15px;
+  margin-left: -10px;
+  
+}
+#bar{
+  padding-top: 1px;
+}
+.bag2{
+  margin-top: -11px;
+  padding-left: 3px;
+}
+.glass2{
+  margin-top: -15px;
+  padding-left: 17px;
+}
+.firstnav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top:0;
+  left:0;
+  display: none;
+  z-index: 99;
+  background-color: #fff;
+  color: #222;
+  width: 550px;
+  height: 200vh;
+  transition: 0.3s;
+  border-bottom: 3px lightslategrey;
+}
+.firstnav .active{
+  display: block;
+}
+.home{
+  margin-top: 71px;
+  margin-left: 25px;
+  font-size: 29px;
+}
+.health{
+  display: none;
+}
+.baby{
+  display: none;
+}
+.mobile{
+  display: none;
+}
+.computer{
+  display: none;
+}
+.fashion{
+  display: none;
+}
+.homelive{
+  display: none;
+}
 }
