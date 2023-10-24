@@ -961,6 +961,7 @@ td{
     padding-left: 4.7px;
     padding-right: 4.7px;
     font-size: 16px; 
+    width: 121.3%;
   }
   
   .bd{
@@ -976,11 +977,11 @@ td{
   }
   .footer{
     display: flex;
-    height: 37vh;
+    height: 35vh;
     flex-direction: column;
-    width: 600px;
     justify-content: center;
-    width: 102%;
+    width: 128.3%;
+    padding-top: 0;
   }
   .foot{
     margin-left: 5px;
@@ -1019,11 +1020,11 @@ td{
     padding-left:  355px;
   }
   .nav3rd{
-    width: 94.7%;
+    width: 119.5%;
     margin-left: 9px;
     font-size: 21px;
     height: 40px;
-    padding-top: 1px;
+    padding-top: 5px;
   }
   .span{
     padding-top: 5px;
@@ -1052,12 +1053,13 @@ td{
     padding-right: 12px;
   }
   .buy_now{
+    width: 125.5%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
   .nav2nd{
     margin-left: 9px;
-    width: 94.5%;
+    width: 119%;
     height: 38px;
     font-size: 21px;
     padding-top: 7px;
