@@ -408,7 +408,6 @@ a:hover{
     100%{
       transform: translateX(-107%);
     }
-
 }  
 .images img{
   transition: all 0.15s ease;
@@ -782,8 +781,9 @@ html{
     grid-template-columns: repeat(1,1fr);
     height: 33vh;
     flex-direction: column;
-    width: 600px;
+    width: 607px;
     justify-content: center;
+    margin-right: 0;
   }
   .foot{
     margin-left: 5px;
@@ -896,7 +896,7 @@ html{
   margin-top: 13px;
 }
 .slider{
-  top: 60.7%;
+  top: 54.7%;
   left: 45.7%;
   transform: translate(-40%,-40%);
   box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);
