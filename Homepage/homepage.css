@@ -140,45 +140,45 @@ a:hover{
 }
 .vl1 {
   border-left: 1px solid lightcoral;
-  height: 27px;
+  height: 30px;
   position: absolute;
   top:99px;
   left:209px;
 }
 .vl2 {
   border-left: 1px solid lightcoral;
-  height: 27px;
+  height: 30px;
   position: absolute;
   top:105px;
   left:320px;
 }
 .vl3 {
   border-left: 1px solid lightcoral;
-  height: 27px;
+  height: 30px;
   position: absolute;
   top:105px;
   left:470px;
 }
 .vl4 {
   border-left: 1px solid lightcoral;
-  height: 27px;
+  height: 30px;
   position: absolute;
   top:105px;
-  right: 663px;
+  right: 643px;
 }
 .vl5 {
   border-left: 1px solid lightcoral;
-  height: 27px;
+  height: 30px;
   position: absolute;
   top:105px;
-  right: 480px;
+  right: 459px;
 }
 .vl6 {
   border-left: 1px solid lightcoral;
-  height: 27px;
+  height: 30px;
   position: absolute;
   top:105px;
-  right:325px;
+  right:296px;
 }
 .fashion{
   font-size: 14px;
@@ -382,7 +382,7 @@ a:hover{
     height: 400px;
     width: 1034px;
     position: absolute;
-    top: 49.4%;
+    top: 50.2%;
     left: 42.2%;
     transform: translate(-40%,-40%);
     box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);
